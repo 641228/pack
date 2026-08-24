@@ -1,5 +1,5 @@
 {
-  "name": "html-desktop-app",
+  "name": "app",
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
@@ -17,6 +17,7 @@
     },
     "mac": {
       "target": "dmg"
-    }
+    },
     "publish": null
+  }
 }
