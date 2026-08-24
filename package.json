@@ -18,5 +18,5 @@
     "mac": {
       "target": "dmg"
     }
-  }
+    "publish": null
 }
