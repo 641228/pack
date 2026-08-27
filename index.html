@@ -1,6 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-
+<meta charset=UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0/>
+<style>
+*{margin:0;
+padding:0;}
+.head{background:linear-gradient(to right,#1a3a5c,#2b5f7a);
+padding:12px;
+justify-content:space-between;
+display:flex;
+align-items:center;}
+.head h1{color:#b3e4f5;
+text-shadow:0 0 10px rgba(80,190,205,0.5),
+0 0 20px rgb(80,175,215);}
+.head nav{display:flex;
+gap:24px;}
+.head nav a{color:#b4eefe;
+text-shadow:1px 1px 2px rgba(180,140,255,0.25);
+text-decoration:none;}
+body{background:linear-gradient(to right,#102a44,#1e3f6b);}
+.about{background:linear-gradient(45deg,#ab55ac,#9989af);
+margin:16px;
+padding:8px;
+border-radius:8px;
+color:#f0deeb;
+min-height:100vh}
+.services{background:linear-gradient(45deg,#89338a,#77679e);
+margin:16px;
+padding:8px;
+border-radius:8px;
+color:#f0deeb;}
+.contact{background:linear-gradient(45deg,#671168,#55457a);
+margin:16px;
+padding:8px;
+border-radius:8px;
+color:#f0deeb;}
+.foot{background:#0d1f33;
+color:#8bb8d0;}
+div h3,h4{text-align:center;}
+</style>
 </head>
 <body>
-
+<div class="head" id="home">
+<h1>某某公司</h1>
+<nav>
+<a href="#home">首页</a>
+<a href="#about">关于我们</a>
+<a href="#services">相关服务</a>
+<a href="#contact">联系我们</a>
+</nav>
+</div>
+<div class="about" id="about">
+<h3>关于我们</h3>
+<hr style="border:1px solid #7a8bcb;">
+关于我们的内容
+<img src="这里可以插张图片">
+</div>
+<div class="services" id="services">
+<h3>相关服务</h3>
+<hr style="border:1px solid #7a8bcb;">
+<h4>服务一</h4>
+服务一的介绍
+<h4>服务二</h4>
+服务二的介绍
+</div>
+<div class="contact" id="contact">
+<h3>联系我们</h3>
+<hr style="border:1px solid #7a8bcb;">
+地址:中国**省**市**区(县)**路**号<br>
+邮箱:666666@qq.com
+<br>
+电话号码:6666-123 4567 8910
+</div>
+<footer class="foot">
+<p>&copy;2026 某某公司;All Rights Reserved.</p>
+</footer>
 </body>
+</html>
